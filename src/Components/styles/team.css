@@ -5,9 +5,13 @@
     justify-content: center;
     /* width: 100%; */
 }
+.team-title-text{
+    width: 90%;
+    text-align: center;
+}
 .team-grid{
     display: grid;
-    margin: 10rem 2rem;
+    margin: 3rem 2rem;
     margin-bottom: 8rem;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     width: 90%;

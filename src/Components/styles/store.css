@@ -55,13 +55,20 @@
     .o-3{
         order: 3;
     }
-    
+    .backicon{
+        margin: 0;
+    }
     .shoe-grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
+        padding-left: 0;
+    }
+    .shoe-small-img{
+        width: 100%;
     }
     .shoe-big-img{
+        width: 50%;
         grid-column: 1/4;
         grid-row: 1/2;
     }
@@ -76,6 +83,7 @@
     }
     .nav-cnt{
         position: relative;
+        margin-bottom: 1rem;
     }
   .nav-items{
     display: none ;
@@ -119,6 +127,11 @@
     margin: 1rem 0rem;
     width: 100%;
     text-align: center;
+  }
+  .contact-title{
+    margin-top: 2rem;
+    margin-bottom: 1rem !important;
+    font-size: 2rem !important;
   }
   }
   .open-nav{
