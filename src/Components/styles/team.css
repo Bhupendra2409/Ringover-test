@@ -1,0 +1,42 @@
+.team-cnt{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 100%; */
+}
+.team-grid{
+    display: grid;
+    margin: 10rem 2rem;
+    margin-bottom: 8rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    width: 90%;
+    max-width: 80rem;
+    gap: 2rem;
+}
+.team-member-img{
+    object-fit: cover;
+
+    width: 100%;
+}
+.team-banner-cnt{
+    width: 10rem;
+    /* margin: 0rem 2rem; */
+    height: 20rem;
+}
+.team-member-name{
+    border-bottom: 1px solid grey;
+    height: 4rem;
+    display: flex;
+    align-items: flex-end;
+}
+.team-connect-cnt{
+    margin-top: 0.5rem;
+}
+.team-connect-icon{
+    margin-right: 0.6rem;
+    fill: rgb(122, 122, 122);
+}
+.team-connect-icon:hover{
+    fill:black;
+}

@@ -1,0 +1,34 @@
+.shoe-banner-cnt{
+    padding: 1rem 1rem;
+    /* box-shadow: 2px 2px 2px 2px grey; */
+    max-width: 8rem;
+    /* border: 2px solid black; */
+    justify-self: center;
+    border-radius: 2px;
+    transition: all 0.2s ease-in;
+}
+.shoe-banner-cnt:hover{
+    box-shadow: 1px 1px 7px 1px #cbcbcb;
+}
+
+.shoe-banner-img-cnt{
+    /* height: 7rem;
+    width: 7rem;
+    object-fit: cover; */
+}
+.shoe-banner-image{
+    height: 8rem;
+    width: 8rem;
+    object-fit: contain;
+}
+.shoe-banner-price-rating{
+    display: flex;
+    justify-content: space-between;
+}
+.shoe-banner-price{
+    width: fit-content;
+}
+.shoe-banner-rating-cnt{
+    width: fit-content;
+    color: rgb(138, 138, 138);
+}

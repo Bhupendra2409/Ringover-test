@@ -1,0 +1,13 @@
+.display-shoes{
+    /* display: grid; */
+    /* row-gap: 2rem; */
+    /* grid-template-columns: repeat(auto,fit-content); */
+    /* grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); */
+
+    display: flex;
+    flex-wrap: wrap;
+
+    
+    /* grid-auto-columns: min-content; */
+    /* margin-top: 2rem; */
+}

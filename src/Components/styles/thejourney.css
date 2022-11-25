@@ -1,0 +1,23 @@
+.tj-cnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end !important;
+}
+.TJ-img-cnt{
+    /* height: 60vh; */
+    width: 100%;
+    position: relative;
+    /* max-width: 70rem; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-image: url('/assets/bg.jpg'); */
+}
+
+.tj-item-cnt{
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 70rem;
+    /* margin-right: 20rem; */
+
+}

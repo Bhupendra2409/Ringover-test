@@ -1,0 +1,14 @@
+.filter-item-cnt{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.filter-cnt{
+    padding: 1rem 0rem;
+    margin: 0 1rem;
+    border-bottom: 1px solid grey;
+}
+.filter-btn-cnt{
+    align-self: flex-end;
+    justify-self: flex-end;
+}
